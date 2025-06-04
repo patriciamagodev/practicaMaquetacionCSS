@@ -7,7 +7,8 @@ Construí un blog personal con CSS, usando Grid y técnicas de maquetación. Apr
 - https://github.com/degranda/Platzi-blog
 
 ## Este es mi Proyecto:
-- https://.netlify.app
+- https://github.com/patriciamagodev/practicaMaquetacionCSS
+- https://pmdevmaquetacioncss.netlify.app/
 
 ### Visualización Desktop
-![vista desktop del blog](vistaDesktop.png)
+![vista desktop del blog](/assets/maquetacionCss.png)
