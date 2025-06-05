@@ -1,4 +1,10 @@
 @media (max-width: 900px) {
+    nav .nav-logo-container {
+        margin-left: 5px;
+    }
+    nav .profile-link {
+        margin-right: 20px;;
+    }
     .blogs-main-new {
         grid-template-columns: 1fr;
         grid-template-rows: 3fr
@@ -6,19 +12,98 @@
     .blogs-news-img-container {
         grid-row: 2;
     }
+    .blogs-news-img-container img {
+        width: 100%;
+    }
     .blogs-news-info-container {
         grid-column: 1;
         grid-row: 3;
     }
     .blogs-posts-container .post-container {
         max-width: 45%;
+        padding-left: 8px;
     }
-    .proyects-main-container {
+    .blogpost-img-container {
+        padding: 0px;
+    }
+    .blogpost-img-container img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .blogpost-main-container article p {
+        font-size: 1.2rem;
+    }
+    .contact-main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        height: auto;
+        padding: 50px 10px 40px 10px;
+        
+    }
+    .contact-main-container div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .contact-main-container div .contact-left {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 280px;
+        text-align: center;
+    }
+    .contact-main-container .contact-right {
+        margin-top: 10px;
+        width: 110%;
+        text-align: center;
+    }
+    .projects-main-container {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 2fr;
     }
+    .profile-main-container {
+        padding: 50px 20px;
+        margin-bottom: 10px;
+    }
+    .profile-main-container div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .profile-main-container h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .profile-main-container p {
+        text-align: center;
+        padding: 0px 15px;
+    }
+
+    .profile-main-container img {
+        width: 250px;
+        height: auto;
+        margin-right: 0px;
+    }
     .profile-main-container .profile-container {
         display: block;
+    }
+    .profile-main-projects h3 {
+        margin-bottom: 10px;
+    }
+    .projects-main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 }
 
