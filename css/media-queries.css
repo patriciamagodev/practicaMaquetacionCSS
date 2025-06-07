@@ -12,7 +12,7 @@
     .home-main-text, .home-main-text span {
         font-size: 2.4rem;
         line-height: 40px;
-        letter-spacing: 1px;
+        letter-spacing: -2px;
         text-align: center; 
     }
     .blogs-main-new {
