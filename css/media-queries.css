@@ -6,13 +6,14 @@
         margin-right: 20px;;
     }
     .home-main section {
-        width: 100%;
+        width: 290px;
         margin-top: 60px;
     }
     .home-main-text, .home-main-text span {
         font-size: 2.4rem;
         line-height: 40px;
         letter-spacing: 1px;
+        text-align: center; 
     }
     .blogs-main-new {
         grid-template-columns: 1fr;
